@@ -1,0 +1,26 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  background:  #377D6A;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=text].error { 
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.row {
+  max-width: 370px;
+  margin: 0 auto;
+  padding: 10px 30px;
+  text-align: center;
+}
+.result {
+    font-size: 30px;
+}
