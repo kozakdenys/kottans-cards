@@ -136,7 +136,7 @@
     function IsCreditCardNumberValid() {
         var value = inputEment.value.replace(/[^0-9.]/g, '');
         
-        if (isValidCard(value)) {
+        if (getVendor(value).name != UNKNOWN_VENDOR) {
             resultElement.innerHTML = IS_VALID;
         } else {
             resultElement.innerHTML = IS_INVALID;
